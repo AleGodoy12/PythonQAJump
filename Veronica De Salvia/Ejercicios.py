@@ -1,29 +1,6 @@
-# Primera clase 17/10/2022
-
-#Horas = float(input("Por favor ingrese la cantidad de horas trabajadas: "))
-#Coste = 20
-#Paga = Horas * Coste
-#print(Paga)
-
-# Segunda clase 19/10/2022
-
-#Frutas = ["banana", "manzana", "pera"] #Lista
-#print(Frutas) 
-
-#Frutas.append("sandia") #Agrega a lista
-#print(Frutas) 
-
-#Frutas.pop(1) #Borra de lista
-#print(Frutas)
-
-#print(Frutas.count("pera")) #Cuantas veces se encuentra el elemento en la lista
-
-#tuple(Frutas)
-#print(Frutas)
-
 #Ejercicio 1.NumerosyString
-
 #1
+from itertools import count
 nombre = input("Por favor ingrese su nombre: ")
 print("Ahora estas en la matrix " + nombre)
 
@@ -55,19 +32,27 @@ print("Hola mundo")
 
 #1
 Materias = ["Literatura", "Quimica", "Ingles"]
-print(Materias)
+print(Materias + " ")
 
 #2
 ArtOficina = ["Engrapadora", "Lapicera", "Portapapeles"]
 ArtHomeOffice = ["Mate", "Post-it", "Tostadas"] #perdón, me daba gracia
-print(ArtOficina + " " + ArtHomeOffice)
+Lista3 = ArtOficina + ArtHomeOffice
+print(Lista3)
 
 #3
 Lista = ["Esto", "es", "una", "lista"]
 tuple(Lista)
 
 #4
+Lista = ["Pera", "Tulipan", "Corcho", "Lata", "Jarron"]
+Lista.append("Carta")
+print(Lista)
+
+len(Lista)
+
+Lista.pop(2) #Por default te borra el ultimo dato
+
+Lista.count("Lata")
 
 #Ejercicios 3.Expresiones
-
-#Clase 3
