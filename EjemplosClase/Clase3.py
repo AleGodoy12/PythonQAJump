@@ -1,7 +1,6 @@
+# Igualdad - Mayor y Menos - Mayor y Menor Que
 print(1+1==3)
 print(1+1==2)
-
-
 print(7<3)
 print(7>3)
 print(7>=3)
